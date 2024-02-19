@@ -1,0 +1,289 @@
+h2{text-align: center;}
+.ejemplares{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+    }
+.parrafo-ejemplares{
+    text-align: justify;
+    padding: 10px;
+    margin-left:10px
+}
+.valkiria {
+        width: 25%;
+        height:fit-content;
+        background-color:white;
+        color:#43618f;
+        margin:20px;
+}
+.valkiria img{
+        width:100%;
+        height:250px;
+        object-fit: contain;
+}
+.numa {
+        width: 25%;
+        height:fit-content;
+        background-color:white;
+        color:#43618f;
+        margin:20px;
+}
+.numa img{
+        width:100%;
+        height: 250px;
+        object-fit: contain;
+}
+.india {
+        width: 25%;
+        height:fit-content;
+        background-color:white;
+        color:#43618f;
+        margin:20px;
+}
+.india img{
+        width:100%;
+        height: 250px;
+        object-fit: contain;
+}
+.arya{
+        width:25%;
+        height:fit-content;
+        background-color: white;
+        color: #43618f;
+        margin:20px;
+}
+.arya img{
+        width:100%;
+        height:250px;
+        object-fit: contain;
+}
+.puna {
+    width: 25%;
+    height:fit-content;
+    background-color:white;
+    color:#43618f;
+    margin:20px;
+}
+.puna img{
+    width:100%;
+    height:250px;
+    object-fit: contain;
+}
+.coraje {
+    width: 25%;
+    height:fit-content;
+    background-color:white;
+    color:#43618f;
+    margin:20px;
+}
+.coraje img{
+    width:100%;
+    height:250px;
+    object-fit: contain;
+}
+@media (max-width:845px){
+h2{
+        text-align: center;
+        margin:10px;
+    }    
+.ejemplares{
+        display: flex;
+        flex-direction: row;
+    }
+.valkiria {
+        width: 80%;
+        height: 50%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:20px;
+        }
+.valkiria img{
+        width:80%;
+        height:50%;
+    }
+.numa {
+        width: 80%;
+        height: 50%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:20px;
+        }
+.numa img{
+        width:80%;
+        height: 50%;
+    }
+.india{
+        width: 80%;
+        height: 50%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:20px;
+    }
+.india img{
+        width:80%;
+        height: 50%;
+    }
+.arya{
+        width: 80%;
+        height: 50%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:20px;
+    }
+    
+.arya img{
+        width:80%;
+        height: 50%;
+    }
+.puna{
+        width: 80%;
+        height: 50%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:20px;
+    }
+.puna img{
+        width:80%;
+        height: 50%;
+    }
+.coraje{
+        width: 80%;
+        height: 50%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:20px;
+    }
+.coraje img{
+        width:80%;
+        height: 50%;
+    }
+}
+@media (max-width:565px){
+.ejemplares{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+    }
+.valkiria{
+            width:90%;
+    }
+.valkiria img{
+            width:80%
+    }
+.numa{
+            width:90%;
+    }
+.numa img{
+            width:80%
+    }
+    
+.india{
+            width:90%;
+    }
+.india img{
+            width:80%
+    }
+    
+.puna{
+        width:90%;
+}
+.puna img{
+        width:80%
+}
+.coraje{
+    width:90%;
+}
+.coraje img{
+    width:80%
+}
+.arya{
+    width:90%;
+}
+.arya img{
+    width:80%
+}
+@media (max-width: 524px) {
+    
+h2{
+        text-align: center;
+        margin:10px;
+    }
+.ejemplares{
+        display: flex;
+        flex-direction: column;
+    }    
+.valkiria {
+        width: 100%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:10px;
+    }
+.valkiria img {
+    width: 100%;
+    }
+.numa {
+        width: 100%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom: 10px;
+    }
+.numa img {
+    width: 100%;
+    }
+.india {
+        width: 100%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:10px;
+    }
+.india img {
+        width: 100%;
+    }
+.puna {
+        width: 100%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:10px;
+    }
+.puna img {
+        width: 100%;
+    }
+.arya {
+        width: 100%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:10px;
+    }
+.arya img {
+        width: 100%;
+        }
+
+.arya {
+        width: 100%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:10px;
+        }
+.arya img {
+        width: 100%;
+        }
+}
+.coraje {
+    width: 100%;
+    background-color:white;
+    color:#43618f;
+    margin-bottom:10px;
+    }
+.coraje img {
+    width: 100%;
+    }
+h1{
+    display: none;}
+
+main.ejemplares{
+    padding: 0;
+}
+
+}
+
