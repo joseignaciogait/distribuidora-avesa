@@ -37,7 +37,8 @@ main {
   padding-right: 20px;
   text-align: center;
 }
-.localidades{margin-bottom: 50px;}
+.localidades{margin-bottom: 50px;
+              margin-top:50px;}
 @media (max-width: 845px) {
 
 }
