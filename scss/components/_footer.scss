@@ -3,20 +3,28 @@ footer {
         flex-wrap: wrap;
         justify-content: space-evenly;
         text-align: center;
-        padding-top: 5%;
         }
-        .sitio {
+.sitio {
         width: 300px;
-        height: 150px;
-        padding: 20px;
+        height: 100px;
         }
 .ubicacion {
         width: 300px;
         height: 100px;
-        padding: 15px;
         }
 .redes {
         width: 300px;
-        height: 150px;
-        padding-left: 30px;
-        }
+        height: 100px;
+}
+
+@media (max-width:2000px) and (min-width:900px){
+.sitio{
+        margin-top: 100px;
+}
+.ubicacion{
+        margin-top: 100px;
+}
+.redes{
+        margin-top: 100px;
+}
+}

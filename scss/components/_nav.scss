@@ -17,7 +17,6 @@
 .barra-de-navegacion a {
         flex-wrap: wrap;
         justify-content: end;
-        color: #43618f;
         padding: 10px;
         align-items: center;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -25,7 +24,6 @@
 .barra-de-navegacion li {
         display: inline-flex;
         margin-top: 20px;
-        color: #43618f;
         }
 @media (max-width:565px){
         .barra-de-navegacion {
@@ -42,4 +40,5 @@
         width: 100%;
         justify-content: center;
         }
+
 }

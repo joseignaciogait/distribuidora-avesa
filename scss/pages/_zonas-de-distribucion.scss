@@ -1,78 +1,84 @@
 h2{text-align: center;}
-.ejemplares{
+.productos{
         display: flex;
         flex-wrap: wrap;
         flex-direction:row;
         justify-content: center;
     }
-.valkiria {
+.pollo-entero {
         width: 25%;
         height:fit-content;
         background-color:white;
-        color:#43618f;
-        margin:20px;
+        color:#c65157;
+        margin-top:20px;
+        margin-left:10px;
 }
-.valkiria img{
+.pollo-entero img{
         width:100%;
         height:250px;
         object-fit: contain;
 }
-.numa {
+.pollo-chacra {
         width: 25%;
         height:fit-content;
         background-color:white;
-        color:#43618f;
-        margin:20px;
+        color:#c65157;
+        margin-top:20px;
+        margin-left:10px;
 }
-.numa img{
+.pollo-chacra img{
         width:100%;
         height: 250px;
         object-fit: contain;
 }
-.india {
+.pechuga {
         width: 25%;
         height:fit-content;
         background-color:white;
-        color:#43618f;
-        margin:20px;
+        color:#c65157;
+        margin-top:20px;
+        margin-left:10px;
 }
-.india img{
+.pechuga img{
         width:100%;
         height: 250px;
         object-fit: contain;
 }
-.arya{
+.pata-muslo{
         width:25%;
         height:fit-content;
         background-color: white;
-        color: #43618f;
-        margin:20px;
+        color: #c65157;
+        margin-top:20px;
+        margin-left:10px;
 }
-.arya img{
+.pata-muslo img{
         width:100%;
         height:250px;
         object-fit: contain;
 }
-.puna {
+.alas {
     width: 25%;
     height:fit-content;
     background-color:white;
-    color:#43618f;
-    margin:20px;
+    color:#c65157;
+    margin-top:20px;
+    margin-left:10px;
 }
-.puna img{
+.alas img{
     width:100%;
     height:250px;
     object-fit: contain;
 }
-.coraje {
+.molida {
     width: 25%;
     height:fit-content;
     background-color:white;
-    color:#43618f;
-    margin:20px;
+    color:#c65157;
+    margin-top:20px;
+    margin-left:10px;
 }
-.coraje img{
+.molida img{
     width:100%;
     height:250px;
     object-fit: contain;
@@ -82,121 +88,131 @@ h2{
         text-align: center;
         margin:10px;
     }    
-.ejemplares{
+.productos{
         display: flex;
         flex-direction: row;
+        width: 100%;
     }
-.valkiria {
-        width: 80%;
+.pollo-entero {
+        width: 50%;
         height: 50%;
         background-color:white;
-        color:#43618f;
+        color:#c65157;
         margin-bottom:20px;
         }
-.valkiria img{
+.pollo-entero img{
+        width:50%;
+        height: 50%;
+    }
+.pollo-chacra{
+        width: 50%;
+        height: 50%;
+        background-color:white;
+        color:#c65157;
+        margin-bottom:20px;
+    }
+.pollo-chacra img{
+        width:50%;
+        height: 50%;
+    }
+.pechuga{
+        width: 50%;
+        height: 50%;
+        background-color:white;
+        color:#c65157;
+        margin-bottom:20px;
+    }
+    
+.pechuga img{
+        width:50%;
+        height: 50%;
+    }
+.pata-muslo{
+        width: 50%;
+        height: 50%;
+        background-color:white;
+        color:#c65157;
+        margin-bottom:20px;
+    }
+.pata-muslo img{
+        width:50%;
+        height: 50%;
+    }
+.alas{
+        width: 50%;
+        height: 50%;
+        background-color:white;
+        color:#c65157;
+    }
+.alas img{
+        width:50%;
+        height: 50%;
+    }
+.molida{
+    width: 50%;
+    height: 50%;
+    background-color:white;
+    color:#c65157;
+    }  
+.molida img{
+    width:50%;
+    height: 50%;
+}
+}
+@media (max-width:565px){
+.productos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+.pollo-entero{
         width:80%;
         height:50%;
     }
-.numa {
-        width: 80%;
-        height: 50%;
-        background-color:white;
-        color:#43618f;
-        margin-bottom:20px;
-        }
-.numa img{
+.pollo-entero img{
         width:80%;
         height: 50%;
     }
-.india{
-        width: 80%;
-        height: 50%;
-        background-color:white;
-        color:#43618f;
-        margin-bottom:20px;
+.pollo-chacra{
+        width:80%;
+        height:50%;
     }
-.india img{
+.pollo-chacra img{
         width:80%;
         height: 50%;
-    }
-.arya{
-        width: 80%;
-        height: 50%;
-        background-color:white;
-        color:#43618f;
-        margin-bottom:20px;
     }
     
-.arya img{
-        width:80%;
-        height: 50%;
+.pechuga{
+            width:80%;
+            height:50%;
     }
-.puna{
-        width: 80%;
-        height: 50%;
-        background-color:white;
-        color:#43618f;
-        margin-bottom:20px;
-    }
-.puna img{
-        width:80%;
-        height: 50%;
-    }
-.coraje{
-        width: 80%;
-        height: 50%;
-        background-color:white;
-        color:#43618f;
-        margin-bottom:20px;
-    }
-.coraje img{
-        width:80%;
-        height: 50%;
-    }
-}
-@media (max-width:565px){
-.ejemplares{
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-    }
-.valkiria{
-            width:90%;
-    }
-.valkiria img{
-            width:80%
-    }
-.numa{
-            width:90%;
-    }
-.numa img{
-            width:80%
+.pechuga img{
+            width:80%;
+            height:50%;
     }
     
-.india{
-            width:90%;
-    }
-.india img{
-            width:80%
-    }
-    
-.puna{
-        width:90%;
+.pata-muslo{
+        width:80%;
+        height:50%;
 }
-.puna img{
-        width:80%
+.pata-muslo img{
+        width:80%;
+        height:50%;
 }
-.coraje{
-    width:90%;
+.alas{
+    width:80%;
+    height:50%;
 }
 .coraje img{
     width:80%
 }
-.arya{
-    width:90%;
+.molida{
+    width:80%;
+    height:50%;
 }
-.arya img{
-    width:80%
+.molida img{
+    width:80%;
+    height:50%;
 }
 @media (max-width: 524px) {
     
@@ -204,81 +220,75 @@ h2{
         text-align: center;
         margin:10px;
     }
-.ejemplares{
+.productos{
         display: flex;
         flex-direction: column;
     }    
-.valkiria {
-        width: 100%;
+.pollo-entero {
+        width: 80%;
         background-color:white;
-        color:#43618f;
+        color:#c65157;
         margin-bottom:10px;
+        margin-right: 0;
     }
-.valkiria img {
-    width: 100%;
+.pollo-entero img {
+    width: 80%;
+    height: 50%;
     }
-.numa {
-        width: 100%;
+.pollo-chacra {
+        width: 80%;
         background-color:white;
-        color:#43618f;
+        color:#c65157;
         margin-bottom: 10px;
+        margin-right: 0;
     }
-.numa img {
-    width: 100%;
+.pollo-chacra img {
+    width: 80%;
+    height:50%;
     }
-.india {
-        width: 100%;
+.pechuga {
+        width: 80%;
         background-color:white;
-        color:#43618f;
+        color:#c65157;
+        margin-bottom:10px;
+        margin-right: 0;
+    }
+.pechuga img {
+        width: 80%;
+        height:50%;
+    }
+.pata-muslo {
+        width: 80%;
+        background-color:white;
+        color:#c65157;
+        margin-bottom:10px;
+        margin-right: 0;
+    }
+.pata-muslo {
+        width: 80%;
+    }
+.alas {
+        width: 80%;
+        background-color:white;
+        color:#c65157;
         margin-bottom:10px;
     }
-.india img {
-        width: 100%;
-    }
-.puna {
-        width: 100%;
-        background-color:white;
-        color:#43618f;
-        margin-bottom:10px;
-    }
-.puna img {
-        width: 100%;
-    }
-.arya {
-        width: 100%;
-        background-color:white;
-        color:#43618f;
-        margin-bottom:10px;
-    }
-.arya img {
-        width: 100%;
+.alas img {
+        width: 80%;
         }
 
-.arya {
-        width: 100%;
+.molida {
+        width: 80%;
         background-color:white;
-        color:#43618f;
+        color:#c65157;
         margin-bottom:10px;
         }
-.arya img {
-        width: 100%;
+.molida img {
+        width: 80%;
         }
 }
-.coraje {
-    width: 100%;
-    background-color:white;
-    color:#43618f;
-    margin-bottom:10px;
-    }
-.coraje img {
-    width: 100%;
-    }
 h1{
     display: none;}
-
-main.ejemplares{
-    padding: 0;
-}
 
 }
 
